@@ -14,6 +14,8 @@ app.set("view engine", "ejs");
 
 //creating a server static resources.
 app.use(express.static("public"));
+app.use('/uploads', express.static('uploads'));
+
 console.log("SSR is working on public folder");
 
 // Home Page Route
