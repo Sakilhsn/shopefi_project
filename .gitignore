@@ -28,5 +28,3 @@ logs/
 Thumbs.db
 
 # Public uploads
-shopefi_backend/public/uploads/
-shopefi_frontend/public/
